@@ -58,9 +58,8 @@
 
 	<profiles>
 		<profile>
-			<id>beanstalk</id>
+			<id>demo</id>
 			<build>
-				<finalName>${project.name}-eb</finalName>
 				<plugins>
 					<plugin>
 						<groupId>org.springframework.boot</groupId>
@@ -75,8 +74,10 @@
 							</excludes>
 						</configuration>
 					</plugin>
+
 				</plugins>
 			</build>
+
 		</profile>
 	</profiles>
 

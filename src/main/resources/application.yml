@@ -1,5 +1,4 @@
 spring:
-  port: 5000
   jpa:
     generate-ddl: true
     hibernate:
@@ -25,3 +24,5 @@ logging:
     org:
       hibernate:
         type: trace
+server:
+  port: 8080
